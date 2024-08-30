@@ -10,4 +10,5 @@ export class BasicsPageComponent {
   public nameUpper: string = 'VICTOR';
   public nameLower: string = 'victor';
   public fullName: string = 'VIctoR SaNCHeZ';
+  public fecha: Date = new Date();
 }
