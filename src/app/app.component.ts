@@ -8,9 +8,9 @@ import { PrimeNGConfig } from 'primeng/api';
 })
 export class AppComponent {
 
-  constructor(private primeNhConfig: PrimeNGConfig) {}
+  constructor(private primeNgConfig: PrimeNGConfig) {}
 
     ngOnInit() {
-        this.primeNhConfig.ripple = true;
+        this.primeNgConfig.ripple = true;
     }
 }
